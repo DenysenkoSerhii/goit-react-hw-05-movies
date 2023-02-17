@@ -49,7 +49,7 @@ const SingleMoviePage = () => {
         };
 
         fetchMovies();
-    }, [setState]);
+    }, [id, setState]);
 
     const goBack = () => navigate(from);
 

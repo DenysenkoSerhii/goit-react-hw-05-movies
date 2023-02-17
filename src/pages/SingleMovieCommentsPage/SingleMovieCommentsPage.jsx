@@ -44,7 +44,7 @@ const SingleMovieCommentsPage = () => {
         };
 
         fetchMovies();
-    }, [setState]);
+    }, [id, setState]);
 
     const {items} = state;
 
