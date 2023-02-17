@@ -39,6 +39,7 @@ export const getMovieComments = async(id) => {
 
     return data.results;
 }
+
 export const getMovieCredits = async(id) => {
     const {data} = await instance.get(`/movie/${id}/credits`);
 console.log(data.cast);
